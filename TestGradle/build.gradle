@@ -18,10 +18,16 @@ repositories {
 }
 
 dependencies {
-// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
-// https://mvnrepository.com/artifact/org.testng/testng
-testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+	// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+	
+	// https://mvnrepository.com/artifact/org.testng/testng
+	testCompile group: 'org.testng', name: 'testng', version: '7.1.0'
 
+}
 
+test{
+	useTestNG(){
+	suites 'testng.xml'
+	}
 }

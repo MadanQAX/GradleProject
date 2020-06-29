@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2965" started-at="2020-06-28T13:45:13Z" finished-at="2020-06-28T13:45:16Z">
+  <suite name="Default suite" duration-ms="13662" started-at="2020-06-29T12:17:28Z" finished-at="2020-06-29T12:17:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2965" started-at="2020-06-28T13:45:13Z" finished-at="2020-06-28T13:45:16Z">
+    <test name="Default test" duration-ms="13662" started-at="2020-06-29T12:17:28Z" finished-at="2020-06-29T12:17:42Z">
       <class name="com.qa.tests.GoogleTest">
-        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:com.qa.tests.GoogleTest@55ca8de8]" name="googleTitleTest" duration-ms="2917" started-at="2020-06-28T13:45:13Z" finished-at="2020-06-28T13:45:16Z">
+        <test-method status="PASS" signature="google()[pri:0, instance:com.qa.tests.GoogleTest@55ca8de8]" name="google" duration-ms="13627" started-at="2020-06-29T12:17:28Z" finished-at="2020-06-29T12:17:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleTitleTest -->
+        </test-method> <!-- google -->
       </class> <!-- com.qa.tests.GoogleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
